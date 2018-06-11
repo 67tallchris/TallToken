@@ -8,3 +8,8 @@ contract TallToken is StandardToken {
   uint8 public decimals = 18;
   uint public INITIAL_SUPPLY = 21000000;
 }
+
+constructor() public {
+  totalSupply_ = INITIAL_SUPPLY;
+  balances[msg.sender] = INITIAL_SUPPLY;
+}
