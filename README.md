@@ -1,4 +1,4 @@
-# TallToke
+# TallToken
 
 Mostly following this tutorial to make an ERC20 token on the ropsten ethereum testnet:
 http://truffleframework.com/tutorials/robust-smart-contracts-with-openzeppelin
